@@ -48,18 +48,19 @@ This is the content from an incoming mail!
 `MailClient.register()`
 
 Parameters
-
-`username` | optional
-`password` | optional
-
+```
+username | optional
+password | optional
+```
 
 ### Start Listening
 `MailClient.start_listening()`
 
 Parameters
-
-`listener` | required
-`interval` | optional
+```
+listener | required
+interval | optional
+```
 
 ### Stop Listening
 `MailClient.stop_listening()`
